@@ -1,8 +1,11 @@
 {% extends "index.html" %}
 
 {% block saturs %}    
+<link rel="stylesheet" type="text/css" media="screen" href="../static/style.css" />
 
-<div id="chat-title">
+
+
+<div class="chat-title">
 <span>CHAT/ CONVERSATION WITH YOURSELF</span>
 </div>
       
@@ -11,10 +14,9 @@
 </div>
 
 
-<div id="msg-form">
-    Message:
+<div class="msgform">
     <input type="text" placeholder="type a message" name="message"/>
     <input type="submit" value="Submit">
 </div>
-    
+
 {% endblock %}

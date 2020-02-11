@@ -4,9 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Chat app</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/style.css" />
   </head>
-  <body>
-    <script src="script.js"></script>
-    <div id="chat-container">
+  
+    
+  <body onload="lasiChatu();" class="bglol">
+    {% block saturs %}
+    {% endblock %}
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
   </body>
+
+</html>
