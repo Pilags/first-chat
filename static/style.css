@@ -1,7 +1,9 @@
-.chat-title {
-    color: #b90000
+
+.body{
+    background-image: linear-gradient(-90deg,#eb3349, #cd00e0)
 }
 
-.bglol{
-    background-image: linear-gradient(-90deg,#eb3349, #f45c43)
+.logo_container{
+    color: white;
+    text-align: center;
 }
